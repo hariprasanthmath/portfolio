@@ -1,0 +1,13 @@
+export const sephoralandingpage = "https://images.squarespace-cdn.com/content/v1/5122cc8ce4b0cbd2cf2c79be/1383252362703-OB1PCVZAGHRD59GMPC75/RETAIL+ASSEMBLY+online+business+of+fashion+courses+-+is+the+beauty+category+heating+up+-+sephora+-+Amazon+-+Shoppers+Drug+Mart.jpeg";
+export const githuburl = "https://github.com/hariprasanthmath";
+export const linkedinurl = "https://www.linkedin.com/in/hari-prasanth-7a210018b/";
+export const resumeurl = "https://drive.google.com/file/d/1sqhpvov-LUn7M13n8xUnsvJ7NePwNGNA/view?usp=sharing";
+export const Youtubecloneurldeployed = "https://utube-clone.pages.dev/";
+export const Youtubecloneurlgithub = "https://github.com/anuj-midha247/UTUBE_CLONE";
+export const Youtubecloneurlmedium = "https://medium.com/@hariprasanthmath/youtube-clone-b0b3581b4142";
+export const sephoracloneurldeployed = "https://stellar-salamander-9ec7e5.netlify.app/";
+export const sephoracloneurlgithub = "https://github.com/Anjali280/SEPHORA";
+export const sephoracloneurlmedium = "https://medium.com/@hariprasanthmath/building-sephora-clone-c57e0a2ce5c0";
+export const firstcrycloneurldeployed = "https://voluble-hotteok-93fe8e.netlify.app/";
+export const firstcrycloneurlgithub = "https://github.com/hariprasanthmath/Firstcry-React-clone";
+export const firstcrycloneurlmedium = "https://medium.com/@hariprasanthmath/firstcry-react-clone-538383705412";
