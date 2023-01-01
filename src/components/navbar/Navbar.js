@@ -2,6 +2,7 @@
 import Type from '../Type';
 // import { Link } from '@chakra-ui/react'
 // import { ExternalLinkIcon } from '@chakra-ui/icons'
+import { aboutmeContent } from '../../Constant/constant';
 import {
   Box,
   Flex,
@@ -172,9 +173,7 @@ export default function Simple() {
         <Heading id={"About"} mb={4}>About me</Heading>
         </Box>
  
-  <Text fontSize='2xl'>
-  My name is Hari Prasanth. I’m a graduate of 2022 from KPR Institute of Technology, Anna University with a degree in Computer science Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like solving problems in LeetCode .
-  </Text>
+  <Text fontSize='2xl'>{aboutmeContent} </Text>
   <Box display={"flex"} justifyContent="center" alignItems={"center"}>
   <Button size='md' colorScheme='green' mt='24px' onClick={()=>{handleNavigation(resumeurl)}}>
     Resume

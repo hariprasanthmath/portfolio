@@ -59,7 +59,7 @@ function ThreecardsBlog(props) {
   </CardBody>
   <Divider />
   <CardFooter>
-  <Button onClick={()=>{handleNavigation(Youtubecloneurlmedium)}}> Medium</Button>
+  <Button  margin="auto" onClick={()=>{handleNavigation(Youtubecloneurlmedium)}}> Medium</Button>
   </CardFooter>
 </Card>
 <Card maxW='sm' _hover={{
@@ -83,7 +83,7 @@ function ThreecardsBlog(props) {
   <Divider />
   <CardFooter>
  
-  <Button onClick={()=>{handleNavigation(sephoracloneurlmedium)}}> Medium</Button>
+  <Button  margin="auto" onClick={()=>{handleNavigation(sephoracloneurlmedium)}}> Medium</Button>
   </CardFooter>
 </Card>
 <Card maxW='sm' _hover={{
@@ -104,8 +104,8 @@ function ThreecardsBlog(props) {
     </Stack>
   </CardBody>
   <Divider />
-  <CardFooter>
-    <Button onClick={()=>{handleNavigation(firstcrycloneurlmedium)}}> Medium</Button>
+  <CardFooter >
+    <Button  margin="auto" onClick={()=>{handleNavigation(firstcrycloneurlmedium)}}> Medium</Button>
   </CardFooter>
 </Card>
         </>
