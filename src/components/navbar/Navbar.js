@@ -50,11 +50,18 @@ export default function Simple() {
   const handleNavigation = (url)=>{
     window.open(url, '_blank', 'noopener,noreferrer')
  }
+  let navbardesign = {
+    position: "fixed",
+    top: 0,
+    width: "100%",
+    overflow: "hidden",
+    zIndex: 100
+  }
 
   return (
     <>
-    {/* //navbar */}
-      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4} bgColor={"red.300"}>
+    {/* //navbar section */}
+      <Box bg={useColorModeValue('gray.100', 'gray.900')} px={4} bgColor={"red.300"}  style={navbardesign}>
         <Flex h={16} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'md'}
@@ -121,7 +128,7 @@ export default function Simple() {
         ) : null}
       </Box>
 
-     
+     {/*  avatar and name section */}
      <Box minH={"100vh"} width="100%" height={"100vh"} px={10} display={"flex"} justifyContent="center" alignItems={"center"} backgroundSize={"100% 100%"} backgroundImage={""}>
      <VStack width={"80%"}>
      <Image
@@ -163,6 +170,7 @@ export default function Simple() {
      </VStack>
 
      </Box>
+     {/* about me section */}
      <Box width="100%" minH={"50vh"}  padding={"20px"} px={4} display={"flex"} justifyContent="center" alignItems={"center"} >
     
       <Box width={"80%"}>
@@ -183,6 +191,7 @@ export default function Simple() {
         </VStack>
       </Box>
      </Box>
+     {/* skills section */}
      <Box width="100%" minH={"30vh"} px={4} display={"flex"} padding={"20px"}  flexDirection={"column"} justifyContent="center"  alignItems={"center"}>
      <Heading id={"Skills"} mb={4}>Skills</Heading>
       
@@ -219,7 +228,7 @@ export default function Simple() {
       }
 
      </Box>
-
+     {/* projects section */}
      <Box width="100%" minH={"70vh"}  padding={"20px"} display={"flex"} justifyContent="space-around" alignItems={"center"}  flexDirection={"column"}>
      <Heading id={"Projects"} as='h1' size={'xl'} noOfLines={1} fontWeight="thin">
        Projects
@@ -231,6 +240,7 @@ export default function Simple() {
         </VStack>}
        
      </Box>
+     {/* blogs cards section */}
      <Box width="100%" minH={"70vh"} px={4} display={"flex"} padding={"20px"}  flexDirection={"column"} justifyContent="center" alignItems={"center"} >
      <Heading as='h1' size={'xl'} noOfLines={1} fontWeight="thin" display="flex" margin="auto">
        BLOGS
@@ -243,7 +253,7 @@ export default function Simple() {
         </VStack>}
      </Box>
      
-    
+     {/* contact me section */}
        <Box  width="100%" minH={"30vh"} px={4} display={"flex"} padding={"20px"}  flexDirection={"column"} justifyContent="center" bgColor={"#d9f3f4"} alignItems={"center"} >
        <Heading id={"Contact"} mb={4}>Contact me</Heading>
        {isLargerThan800?<HStack>

@@ -76,7 +76,7 @@ function Threecards(props) {
 </HStack>
   </Box>
   <CardFooter>
-  <ButtonGroup spacing='2'>
+  <ButtonGroup spacing='2' margin="auto"  >
       <Button variant='ghost' colorScheme='blue' onClick={()=>{handleNavigation(Youtubecloneurlgithub)}}>
       <IconButton
         variant=''
@@ -123,7 +123,7 @@ function Threecards(props) {
 </HStack>
   </Box>
   <CardFooter>
-  <ButtonGroup spacing='2'>
+  <ButtonGroup spacing='2' margin="auto">
       <Button variant='ghost' colorScheme='blue' onClick={()=>{handleNavigation(sephoracloneurlgithub)}}>
       <IconButton
         variant=''
@@ -171,7 +171,7 @@ function Threecards(props) {
   </Box>
   <CardFooter>
   
-  <ButtonGroup spacing='2'>
+  <ButtonGroup spacing='2' margin="auto">
       <Button variant='ghost' colorScheme='blue' onClick={()=>{handleNavigation(firstcrycloneurlgithub)}}>
       <IconButton
         variant=''
