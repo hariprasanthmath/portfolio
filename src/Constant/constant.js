@@ -1,7 +1,7 @@
 export const sephoralandingpage = "https://images.squarespace-cdn.com/content/v1/5122cc8ce4b0cbd2cf2c79be/1383252362703-OB1PCVZAGHRD59GMPC75/RETAIL+ASSEMBLY+online+business+of+fashion+courses+-+is+the+beauty+category+heating+up+-+sephora+-+Amazon+-+Shoppers+Drug+Mart.jpeg";
 export const githuburl = "https://github.com/hariprasanthmath";
 export const linkedinurl = "https://www.linkedin.com/in/hari-prasanth-7a210018b/";
-export const resumeurl = "https://drive.google.com/file/d/1sqhpvov-LUn7M13n8xUnsvJ7NePwNGNA/view?usp=sharing";
+export const resumeurl = "https://drive.google.com/drive/folders/1Y3gBeiA60GaPaw9VvtyRUVqvo2NQMaM_?usp=share_link";
 export const Youtubecloneurldeployed = "https://youtubee-clonee.netlify.app/";
 export const Youtubecloneurlgithub = "https://github.com/anuj-midha247/UTUBE_CLONE";
 export const Youtubecloneurlmedium = "https://medium.com/@hariprasanthmath/youtube-clone-b0b3581b4142";
